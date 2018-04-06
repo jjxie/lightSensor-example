@@ -24,17 +24,17 @@ io.on('connection', function(socket){
 		// socket.broadcast.emit('chat message', msg);
 	});
 
-	// Send sensor data
+	// Send sensor data red
 	socket.on('sensor data red', function(sensorData){
 		io.emit('sensor data red',  sensorData);
 	});
 
-	// Send sensor data 2
+	// Send sensor data green
 	socket.on('sensor data green', function(sensorData){
 		io.emit('sensor data green',  sensorData);
 	});
 
-	// Send sensor data 3
+	// Send sensor data blue
 	socket.on('sensor data blue', function(sensorData){
 		io.emit('sensor data blue',  sensorData);
 	});
