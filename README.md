@@ -4,3 +4,6 @@ This is the source code for a simple light sensor example based on socket.io fra
 
 This example can get data from three light sensors and apply collected data to control the light (RGB) of another light sensor.
 
+Settings:
+Node.js + Webduino Smart Board with light sensor
+
